@@ -1,0 +1,34 @@
+{
+  "name": "paranoyar",
+  "version": "1.0.0",
+  "description": "Informed consent for AI coding agents. Forces the AI to explain every command in plain English and wait for your approval before executing anything.",
+  "keywords": [
+    "ai",
+    "agent",
+    "skill",
+    "safety",
+    "security",
+    "cursor",
+    "windsurf",
+    "cline",
+    "roocode",
+    "claude-code",
+    "informed-consent",
+    "terminal"
+  ],
+  "author": "sherucon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sherucon/paranoyar"
+  },
+  "homepage": "https://github.com/sherucon/paranoyar#readme",
+  "agentskills": {
+    "skills": [
+      {
+        "name": "paranoyar",
+        "path": "./skills/paranoyar"
+      }
+    ]
+  }
+}
