@@ -77,6 +77,16 @@ npx skills add sherucon/paranoyar -a cline
 npx skills add sherucon/paranoyar -a claude-code
 ```
 
+**Codex CLI**
+```bash
+npx skills add sherucon/paranoyar -a codex
+```
+
+**Antigravity**
+```bash
+npx skills add sherucon/paranoyar -a antigravity
+```
+
 **All agents at once**
 ```bash
 npx skills add sherucon/paranoyar -a cursor -a windsurf -a cline
