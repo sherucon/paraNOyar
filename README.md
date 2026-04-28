@@ -111,8 +111,7 @@ The skill is installed into your project's agent directory (e.g., `.cursor/skill
 To remove the skill from a specific agent, delete the skill directory:
 
 ```bash
-# Cursor example
-rm -rf .cursor/skills/paranoyar
+npx skills remove paranoyar
 ```
 
 Once removed, the protocol no longer applies.
