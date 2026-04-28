@@ -16,7 +16,7 @@ paraNOyar puts you back in control. Not by slowing the AI down, but by making it
 
 ## How It Works
 
-Whenever your AI agent is about to run a command — any command, even a simple `ls` — paraNOyar forces it to output this 3-step block **immediately before** invoking the tool:
+Whenever your AI agent is about to run a command — any command, even a simple `ls` — paraNOyar forces it to output this 2-step block **immediately before** invoking the tool:
 
 **Step 1 — Risk Badge**
 The AI opens with a risk classification:
@@ -24,10 +24,7 @@ The AI opens with a risk classification:
 - `🟡 Medium Risk` — state-changing (installing packages, writing files)
 - `🔴 High Risk` — destructive (deleting files, running scripts, resetting databases)
 
-**Step 2 — Exact Command Preview**
-The AI shows you the exact, unmodified commands it wants to run.
-
-**Step 3 — ELI5 Translation**
+**Step 2 — ELI5 Translation**
 The AI explains each command in plain English — what it does, what changes, and what could be lost.
 
 Then the agent **immediately invokes the tool**, and the native **Run / Skip** button appears. That button is your approval gate — no need to type Y or N. Read the explanation, then click Run or Skip.
@@ -39,11 +36,6 @@ Then the agent **immediately invokes the tool**, and the native **Run / Skip** b
 Here's what you'll see when your AI wants to set up a database:
 
 > 🔴 **High Risk**
->
-> ```bash
-> npm install sqlite3
-> rm -rf temp_data
-> ```
 >
 > **paraNOyar Translation:**
 > - Downloads a third-party tool called "sqlite3" from the internet to manage your database.
